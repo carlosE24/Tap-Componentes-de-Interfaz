@@ -1,4 +1,5 @@
 // stevens javier vera Enriquez
+// Topicos de Programacion de 8am - 9am
 import java.awt.*;
 class Ventana extends Frame{
    MenuBar barra = new MenuBar();
@@ -17,13 +18,7 @@ class Ventana extends Frame{
       programa.addSeparator();
 
       programa.add(guardar);
-      guardar.add("Guardar");
-      guardar.add("Guardar Como...");
-      guardar.add("Guardar Todo");
-      
-      programa.addSeparator();
 
-      programa.add("Salir");
  
    }
  
